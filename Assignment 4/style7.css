@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  body {
+    font-family: Arial, sans-serif;
+  }
+
+  nav {
+    background-color: #333;
+    padding: 10px 0;
+  }
+
+  .nav-links {
+    display: flex;
+    justify-content: space-around; /* Distribute evenly */
+    flex-wrap: wrap; /* Wrap on smaller screens */
+    list-style: none;
+  }
+
+  .nav-links li {
+    margin: 5px 10px;
+  }
+
+  .nav-links a {
+    text-decoration: none;
+    color: white;
+    font-weight: normal;
+    font-size: 18px;
+    transition: all 0.3s ease;
+  }
+
+  /* Hover effects: color change, underline, bold */
+  .nav-links a:hover {
+    color: #ffd700; /* gold color */
+    text-decoration: underline;
+    font-weight: bold;
+  }
+
+  /* Responsive tweak: smaller font and padding on smaller screens */
+  @media (max-width: 600px) {
+    .nav-links {
+      justify-content: center;
+    }
+    .nav-links a {
+      font-size: 16px;
+    }
+  }

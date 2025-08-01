@@ -1,0 +1,25 @@
+body{
+    text-align: center;
+    padding: 20px;
+}
+header{
+    background-color: rgb(3, 126, 126);
+    padding: 20px;
+}
+main{
+    background-color: #f0f0f0;
+    padding: 20px;
+}
+footer{
+    background-color: rgb(4, 4, 228);
+    padding: 20px;
+}
+button{
+    background-color: red;
+    border-radius: 20px;
+    border: 0px;
+    padding: 20px;
+}
+button:hover{
+    background-color: rgb(119, 32, 32);
+}

@@ -1,0 +1,16 @@
+#abc{
+    font-family: 'Times New Roman', Times, serif;
+    color: blue;
+    text-decoration: underline;
+}
+.one{
+    font-style: italic;
+}
+.two{
+    text-align: center;
+}
+button{
+    border-radius: 20px;
+    padding: 10px;
+    background-color: rgb(20, 9, 121);
+}
