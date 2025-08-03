@@ -3,10 +3,6 @@ body {
     padding: 20px;
     background: #f0f0f0;
   }
-
-  
-
- 
   .margin-box {
     background-color: #f9c2c2; 
     padding: 10px;
@@ -42,6 +38,4 @@ body {
     padding: 10px;
   }
 
-  h3 {
-    margin-top: 0;
-  }
+ 

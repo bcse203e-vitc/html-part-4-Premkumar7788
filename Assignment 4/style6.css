@@ -1,22 +1,19 @@
 body {
     font-family: Arial, sans-serif;
-    height: 1500px; /* Make page scrollable */
+    height: 300vh; 
     margin: 20px;
     position: relative;
   }
 
-  /* Static box - default flow */
+
   .box-static {
     width: 150px;
     height: 100px;
     background-color: #ff9999;
-    margin-bottom: 40px;
     padding: 10px;
-    color: #fff;
     font-weight: bold;
   }
 
-  /* Fixed box - stays top right on viewport */
   .box-fixed {
     position: fixed;
     top: 20px;
@@ -24,46 +21,35 @@ body {
     width: 150px;
     height: 100px;
     background-color: #66ccff;
-    color: #fff;
     padding: 10px;
     font-weight: bold;
-    z-index: 10; /* on top */
+    z-index: 1; 
   }
 
-  /* Relative box - offset relative to its normal position */
+
   .box-relative {
     position: relative;
-    top: 30px; /* move down */
-    left: 20px; /* move right */
+    left: 20px; 
     width: 150px;
     height: 100px;
     background-color: #99ff99;
-    color: #333;
     padding: 10px;
     font-weight: bold;
-    margin-bottom: 40px;
+    margin:40px
   }
-
-  /* Wrapper for absolute box */
   .wrapper {
-    position: relative; /* establish containing block for absolute */
-    width: 320px;
+    position: relative; 
     height: 150px;
-    border: 2px solid #333;
     margin-bottom: 40px;
-    background: #f0f0f0;
+    background: #e87676;
     padding: 10px;
   }
-
-  /* Absolute box - positioned relative to nearest positioned ancestor */
   .box-absolute {
     position: absolute;
-    top: 10px;
     right: 10px;
     width: 140px;
     height: 100px;
-    background-color: #ffcc66;
-    color: #333;
+    background-color: #5e4209;
     padding: 10px;
     font-weight: bold;
   }

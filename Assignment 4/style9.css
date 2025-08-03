@@ -6,70 +6,33 @@
     gap: 20px;
     background-color: #f0f2f5;
 }
-
-/* Base style for all animated buttons */
 .animated-btn {
     padding: 12px 24px;
     font-size: 16px;
     font-weight: bold;
     color: #fff;
-    border: none;
-    border-radius: 8px;
-    cursor: pointer;
-    outline: none; /* Removes the default blue outline on click */
+    border: 0;
+    border-radius: 10px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    
-    /* --- The Magic Happens Here --- */
-    /* Define the properties to be animated and the duration/timing */
-    transition: background-color 0.3s ease, transform 0.3s ease, box-shadow 0.1s ease;
+    transition: transform 0.3s ease;
 }
-
-/* Specific button colors */
 .save-btn {
-    background-color: #28a745; /* Green */
+    background-color: #28a745; 
 }
 
 .cancel-btn {
-    background-color: #dc3545; /* Red */
+    background-color: #dc3545;
 }
 
 .submit-btn {
-    background-color: #007bff; /* Blue */
+    background-color: #007bff;
 }
-
-/* --- Hover Effect --- */
 .animated-btn:hover {
-    /* Change the background color */
-    background-color: #1e7e34; /* Darker green */
-    
-    /* Scale the button up slightly */
     transform: scale(1.05); 
-    
-    /* Optional: increase the shadow to make it 'lift' */
     box-shadow: 0 8px 12px rgba(0, 0, 0, 0.15);
 }
-
-.cancel-btn:hover {
-    background-color: #c82333; /* Darker red */
-}
-
-.submit-btn:hover {
-    background-color: #0069d9; /* Darker blue */
-}
-
-/* --- Click/Active Effect --- */
 .animated-btn:active {
-    /* Temporarily apply a different box-shadow */
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); 
-    
-    /* Optional: scale it back down slightly to simulate a "push" */
     transform: scale(1.0); 
-    
-    /* Adjust the transition for a snappy click effect */
-    transition: background-color 0.3s ease, transform 0.1s ease, box-shadow 0.1s ease;
-}
-
-/* Reset the box-shadow transition for the specific active state */
-.animated-btn:active {
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); 
+    transition: transform 0.1s ease;
 }
